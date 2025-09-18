@@ -9,7 +9,7 @@
 
 ## Instructions
 
-Complete the following methods in `cartoon_collections.rb`.
+Complete the following methods in `cartoon_collections.rb`. Run `bin/rspec` to test your implementation.
 
 ### `#roll_call_dwarves`
 
@@ -31,7 +31,7 @@ should look like this:
 4. Grumpy
 ```
 
-Look into the [`#with_index`][with_index] method to access the index for each
+Look into the  method to access the index for each
 element as you are iterating.
 
 ### `#summon_captain_planet`
@@ -110,14 +110,14 @@ find_the_cheese(ingredients)
 ```
 
 You can assume that all strings will be lowercase. Take a look at the
-[`#include?`][include?] method for a hint. This method asks you to return a string
+ method for a hint. This method asks you to return a string
 value instead of printing it so keep that in mind.
 
 ## Resources
 
-- The [`#with_index` method][with_index]
-- The [`#map` method][map]
-- The [`#include?` method][include?]
+- The [method][with_index]
+- The [method][map]
+- The [method][include?]
 
 [with_index]: https://apidock.com/ruby/Enumerator/with_index
 [map]: http://ruby-doc.org/core/Array.html#method-i-map
